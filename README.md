@@ -1,7 +1,7 @@
 # Awesome-Rust-Neural-Network
-A curated collection of Rust projects related to neural networks, designed to complement "[Are We Learning Yet.](https://www.arewelearningyet.com)". Plan to submit libraries to "Are We Learning Yet" that are included in this project but currently missing from it. 
+A curated collection of Rust projects related to neural networks, designed to complement "[Are We Learning Yet](https://www.arewelearningyet.com)". I Plan to submit libraries to "Are We Learning Yet" that are included in this project but currently missing from it. 
 
-This repository aims to provide a comprehensive overview of the Rust neural network ecosystem to identify the currently missing foundational infrastructure. Thus it focuses more on the features, backends, and main dependencies of the Rust-based neural network projects. Note that the features, backends, and main deps are based on my own search and understanding, and may be incomplete or even incorrect.
+This repository aims to provide a comprehensive overview of the Rust neural network ecosystem to identify the currently missing foundational infrastructure. Thus, it focuses more on the features, backends, and main dependencies of the Rust-based neural network projects. Note that the features, backends, and main dependencies are based on my own search and understanding, and may be incomplete or even incorrect.
 
 ## Table of contents
 
@@ -46,5 +46,5 @@ This repository aims to provide a comprehensive overview of the Rust neural netw
 
 ## Miscellaneous
 
-[gpu-allocator](https://github.com/Traverse-Research/gpu-allocator), GPU memory allocator for Vulkan, DirectX 12 and Metal. Written in pure Rust.
-[ZLUDA](https://github.com/vosen/ZLUDA), CUDA on non-NVIDIA GPUs.
+- [gpu-allocator](https://github.com/Traverse-Research/gpu-allocator), GPU memory allocator for Vulkan, DirectX 12 and Metal. Written in pure Rust.
+- [ZLUDA](https://github.com/vosen/ZLUDA), CUDA on non-NVIDIA GPUs.
