@@ -1,5 +1,5 @@
 # Awesome-Rust-Neural-Network
-A curated collection of Rust projects related to neural networks, designed to complement "[Are We Learning Yet](https://www.arewelearningyet.com)". I Plan to submit libraries to "Are We Learning Yet" that are included in this project but currently missing from it. 
+A curated collection of Rust projects related to neural networks, designed to complement "[Are We Learning Yet](https://www.arewelearningyet.com)". I plan to submit libraries to "Are We Learning Yet" that are included in this project but currently missing from it. 
 
 This repository aims to provide a comprehensive overview of the Rust neural network ecosystem to identify the currently missing foundational infrastructure. Thus, it focuses more on the features, backends, and main dependencies of the Rust-based neural network projects. Note that the features, backends, and main dependencies are based on my own search and understanding, and may be incomplete or even incorrect.
 
