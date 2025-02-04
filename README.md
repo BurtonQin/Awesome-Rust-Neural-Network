@@ -49,10 +49,14 @@ This repository aims to provide a comprehensive overview of the Rust neural netw
 | [cubecl](https://github.com/tracel-ai/cubecl) | Multi-platform high-performance compute language extension for Rust | Kernels in Rust, CubeIR | WGPU, CUDA, HIP |  cudarc, cubecl-hip-sys, ash, cubecl-spirv, wgpu | 2025-01-20 |
 | [krnl](https://github.com/charles-r-earp/krnl) | Safe, portable, high performance compute (GPGPU) kernels | Kernels in Rust | Vulkan | rsprv, vulkano, ash | 2024-05-28 |
 | [EnzymeAD](https://github.com/EnzymeAD/rust) | A rust fork to work towards Enzyme integration | AutoDiff on LLVM |  LLVM | Enzyme | 2024-11-25 |
+| [Rust-CUDA](https://github.com/Rust-GPU/Rust-CUDA)| Ecosystem of libraries and tools for writing and executing fast GPU code fully in Rust | Compiling Rust to PTX | CUDA | Binding | 2025-01-27 | 
+| [Rust-GPU](https://github.com/Rust-GPU/rust-gpu)| Making Rust a first-class language and ecosystem for GPU shaders | Compiling Rust to SPIR-V | SPIR-V | Binding | 2025-01-03 | 
+| [cudarc](https://github.com/coreylowman/cudarc)| Safe rust wrapper around CUDA toolkit | Mixture of safe and sys APIs | CUDA | Binding | 2025-01-28 | 
 | [async-cuda](https://github.com/oddity-ai/async-cuda) | Asynchronous CUDA for Rust | Async, NPP | CUDA | Binding | 2024-11-04 |
 | [async-tensorrt](https://github.com/oddity-ai/async-tensorrt) | Asynchronous TensorRT for Rust | Async, TensorRT | CUDA | async-cuda, Binding | 2024-11-04 |
 | [cuda-rs](https://github.com/vivym/cuda-rs) | Rust wrapper for CUDA Driver (libcuda.so) and Runtime (libcudart.so) APIs | - | CUDA | Binding | 2024-01-01 |
 | [tensorrt-rs](https://github.com/vivym/tensorrt-rs)| Rust wrapper to NVIDIA TensorRT | TensorRT | CUDA | cuda-rs, Binding | 2024-01-03 | 
+
 
 ## Miscellaneous
 
