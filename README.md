@@ -35,6 +35,7 @@ This repository aims to provide a comprehensive overview of the Rust neural netw
 | [operators](https://github.com/YdrMaster/operators-rs) | Multi-hardware support operator library | Multi-hardware | CPU, CUDA, OpenCL, Ascend, Cambricon | clrt, infinirt, cuda-driver | 2025-02-19 |
 | [crabml](https://github.com/crabml/crabml) | a fast cross platform AI inference engine using Rust and WebGPU | LLM Inference, mmap, Quantization | CPU, WGPU | vulkano, wgpu | 2025-01-04 |
 | [diffusion-rs](https://github.com/EricLBuehler/diffusion-rs) | Blazingly fast inference of diffusion models | Diffusion, Quantization, DDUF, Offloading | CPU, CUDA, Metal, etc. | cudarc, intel-mkl-src, accelerate-sr, metal, gemm | 2025-04-01 |
+| [mmnn](https://github.com/GrgoMariani/mmnnrust) | rust-based bash-cli for Neural Network propagation/backpropagation | bash-cli, json-config | - | - | 2025-04-11 |
 
 ## Machine Learning
 
