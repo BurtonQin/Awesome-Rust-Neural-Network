@@ -41,6 +41,7 @@ This repository aims to provide a comprehensive overview of the Rust neural netw
 
 | Name | Description | Features | Backends | Main Deps | Last Commit Time |
 | -----| ----------- | ---------- | ---------- | ---------- | ---------- |
+| [adk-rust](https://github.com/zavora-ai/adk-rust) | Production-ready AI agent development kit for Rust | Model-agnostic (Gemini, OpenAI, Anthropic), Multi-agent, MCP, Telemetry | CPU | tokio, serde | 2024-12 |
 | [linfa](https://github.com/rust-ml/linfa) | A Rust machine learning framework | like scikit-learn | CPU | ndarray, sprs | 2025-05-26 |
 | [jams-rs](https://github.com/gagansingh894/jams-rs) | Rust based model serving solution for popular machine learning frameworks | Model Store, PyTorch & Tenosrflow Models, Tree Models | PyTorch, TensorFlow, Catboost, LightGBM | tensorflow, tch, catboost-rs, lgbm, ndarray | 2025-05-30 |
 | [bullet](https://github.com/jw1912/bullet) | Specialised ML Library | Domain-specific, NNUE-style networks, chess engines | cudarc | - |
