@@ -45,9 +45,9 @@ This repository aims to provide a comprehensive overview of the Rust neural netw
 | -----| ----------- | ---------- | ---------- | ---------- | ---------- |
 | [linfa](https://github.com/rust-ml/linfa) | A Rust machine learning framework | like scikit-learn | CPU | ndarray, sprs | 2026-05-30 |
 | [jams-rs](https://github.com/gagansingh894/jams-rs) | Rust based model serving solution for popular machine learning frameworks | Model Store, PyTorch & Tenosrflow Models, Tree Models | PyTorch, TensorFlow, Catboost, LightGBM | tensorflow, tch, catboost-rs, lgbm, ndarray | 2025-05-30 |
-| [bullet](https://github.com/jw1912/bullet) | Specialised ML Library | Domain-specific, NNUE-style networks, chess engines | cudarc | - |
+| [bullet](https://github.com/jw1912/bullet) | Specialised ML Library | Domain-specific, NNUE-style networks, chess engines | cudarc | - | 2026-06-22 |
 | [redstone-ml](https://github.com/BhavyeMathur/redstone-ml) | High-performance Machine Learning, Dynamic Auto-Differentiation and Tensor Algebra crate for Rust | AutoDiff, NdArrray | CPU, GPU | - | 2025-06-08 |
-| [RustyML](https://github.com/SomeB1oody/RustyML) | A high-performance machine learning library in pure Rust, offering statistical utilities, ML algorithms and neural networks. | ndarray, rayon | CPU | 2026-06-25 |
+| [RustyML](https://github.com/SomeB1oody/RustyML) | A high-performance machine learning library in pure Rust, offering statistical utilities, ML algorithms and neural networks. | - | CPU | ndarray, rayon | 2026-06-25 |
 
 ## GPU Computing
 
