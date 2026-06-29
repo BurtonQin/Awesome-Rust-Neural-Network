@@ -65,7 +65,8 @@ This repository aims to provide a comprehensive overview of the Rust neural netw
 | [tensorrt-rs](https://github.com/vivym/tensorrt-rs)| Rust wrapper to NVIDIA TensorRT | TensorRT | CUDA | cuda-rs, Binding | 2024-01-03 | 
 | [oxicuda](https://github.com/cool-japan/oxicuda) | OxiCUDA replaces the entire NVIDIA CUDA Toolkit software stack with type-safe, memory-safe Rust code | CUDA driver | CUDA | - | 2026-06-25 |
 | [cuda-oxide](https://github.com/NVlabs/cuda-oxide) | An experimental Rust-to-CUDA compiler that lets you write (SIMT) GPU kernels in safe(ish), idiomatic Rust | Rust to PTX | CUDA | - | 2026-06-27 |
-| [Rurix](https://github.com/qwasg/Rurix) | GPU programming language and toolchain written in Rust | CUDA first, Windows first | CUDA driver | - | 2026-06-25 |
+| [Rurix](https://github.com/qwasg/Rurix) | GPU programming language and toolchain written in Rust | CUDA first, Windows first | CUDA | - | 2026-06-25 |
+| [tile-rs](https://github.com/yijunyu/tile-rs) | Safe Rust bindings for Huawei Ascend NPU (CANN framework) | Kernels in Rust tile DSL, lower to MLIR then 15 backends | 15 backends | - | 2026-06-29 | 
 
 
 ## Miscellaneous
