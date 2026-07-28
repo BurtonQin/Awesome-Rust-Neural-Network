@@ -48,6 +48,7 @@ This repository aims to provide a comprehensive overview of the Rust neural netw
 | [bullet](https://github.com/jw1912/bullet) | Specialised ML Library | Domain-specific, NNUE-style networks, chess engines | cudarc | - | 2026-06-22 |
 | [redstone-ml](https://github.com/BhavyeMathur/redstone-ml) | High-performance Machine Learning, Dynamic Auto-Differentiation and Tensor Algebra crate for Rust | AutoDiff, NdArrray | CPU, GPU | - | 2025-06-08 |
 | [RustyML](https://github.com/SomeB1oody/RustyML) | A high-performance machine learning library in pure Rust, offering statistical utilities, ML algorithms and neural networks. | - | CPU | ndarray, rayon | 2026-06-25 |
+| [tenferro-rs](https://github.com/tensor4all/tenferro-rs) | A Rust-native tensor & autodiff stack for scientific computing | opt-in autodiff, scientific computing | CPU, GPU | faer, cblas, lapack, cudarc, cubecl | 2026-07-28 |
 
 ## GPU Computing
 
