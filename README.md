@@ -20,7 +20,7 @@ This repository aims to provide a comprehensive overview of the Rust neural netw
 | [candle](https://github.com/huggingface/candle) | Minimalist ML framework for Rust | Like PyTorch, Training, Various Models | CPU, CUDA, CUDA NCCL, WASM | gemm, intel-mkl-src, cudarc, metal, accelerate-src | 2026-06-26 |
 | [burn](https://github.com/tracel-ai/burn) | Burn is a new comprehensive dynamic Deep Learning Framework built using Rust with extreme flexibility, compute efficiency and portability as its primary goals. | Various backends, Kernel Fusion, Training, Various Models, ONNX | WGPU, Candle, Torch, Ndarray, Remote | matrixmultiply, blas-src, libm, openblas-src, ndarray, candle-core, cubecl, cudarc, tch  | 2026-06-26 |
 | [dfdx](https://github.com/coreylowman/dfdx) | Deep learning in Rust, with shape checked tensors and neural networks | Compile-time Checking | CPU, CUDA, WGPU | gemm, cudarc, wgpu | 2024-01-25 |
-| [luminal](https://github.com/jafioti/luminal) | Deep learning at the speed of light | Static Computation Graph, RISC-style arch, Kernel Fusion, Training | CPU, CUDA, Metal | matrixmultiply, cudarc, metal-rs | 2026-06-22 |
+| [luminal](https://github.com/luminal-ai/luminal) | Search-first deep learning compiler and inference runtime written in Rust | Static Computation Graph, Small Primitive Op Set, Search-based Compilation, Kernel Fusion, Megakernel Compilation, PyTorch torch.compile Backend | CPU, CUDA, Metal | cudarc, metal | 2026-08-22 |
 | [autograph](https://github.com/charles-r-earp/autograph) | A machine learning library for Rust | GPGPU kernels implemented with krnl | CPU, Vulkan | krnl, ndarray | 2024-08-19 |
 | [unda](https://github.com/unda-ml/unda) | General purpose machine learning crate | Compile to XLA | XLA | xla-rs | 2024-06-19 |
 | [custos](https://github.com/elftausend/custos) | A minimal OpenCL, CUDA, Vulkan and host CPU array manipulation engine / framework | Array Manipulation, AutoDiff, Lazy Execution | CPU, OpenCL, CUDA, Vulkan, NNAPI | min-cl, libm, ash, naga, nnapi | 2025-08-21 |
@@ -33,6 +33,10 @@ This repository aims to provide a comprehensive overview of the Rust neural netw
 | [rten](https://github.com/robertknight/rten) | ONNX neural network inference engine | ONNX | CPU | rayon | 2026-06-27 |
 | [oxide-rs](https://github.com/theawakener0/oxide-rs) | High-performance LLM inference engine inspired by llama.cpp. | LLM Inference, Quantization | CPU | llama.cpp | 2026-03-16 |
 | [mistral.rs](https://github.com/EricLBuehler/mistral.rs) | Blazingly fast LLM inference | LLM inference, safetensors, Quantization | CPU, CUDA, Metal | mkl, candle, metal, accelerate | 2026-06-27 |
+| [PegaInfer](https://github.com/pegainfer-project/pegainfer) | High-performance LLM inference and serving engine written in Rust with custom CUDA kernels | LLM Serving, Continuous Batching, KV Cache, Prefix Cache, CUDA Graphs, OpenAI-compatible API, Multi-GPU | CUDA | Rust, CUDA | 2026-08-22 |
+| [hipfire](https://github.com/warpfront/hipfire) | High-performance LLM inference engine for AMD consumer GPUs written in Rust and HIP | LLM Inference, Quantization, Multi-GPU, Expert Parallelism, Custom GPU Kernels | AMD HIP / ROCm, RDNA | Rust, HIP | 2026-08-22 |
+| [PMetal](https://github.com/Epistates/pmetal) | Rust-native machine learning platform for Apple Silicon | LLM Inference, LoRA, QLoRA, DPO, GRPO, Quantization, Training, Serving | Metal, Apple Neural Engine | Rust, Metal | 2026-08-22 |
+| [rustane](https://github.com/ncdrone/rustane) | Rust-native training and inference stack targeting Apple Neural Engine and Metal | Neural Network Training, Inference, Apple Neural Engine, Metal GPU | ANE, Metal | Rust, Metal | 2026-08-22 |
 | [InfiniLM](https://github.com/InfiniTensor/InfiniLM) | A handwriting transformer model project developed from YdrMaster/llama2.rs | LLM Inference, Multiple backends supported | CPU, CUDA, OpenCL, Ascend, etc. | operators | 2026-06-26 |
 | [operators](https://github.com/YdrMaster/operators-rs) | Multi-hardware support operator library | Multi-hardware | CPU, CUDA, OpenCL, Ascend, Cambricon | clrt, infinirt, cuda-driver | 2025-02-19 |
 | [crabml](https://github.com/crabml/crabml) | a fast cross platform AI inference engine using Rust and WebGPU | LLM Inference, mmap, Quantization | CPU, WGPU | vulkano, wgpu | 2025-01-04 |
@@ -48,13 +52,15 @@ This repository aims to provide a comprehensive overview of the Rust neural netw
 | [bullet](https://github.com/jw1912/bullet) | Specialised ML Library | Domain-specific, NNUE-style networks, chess engines | cudarc | - | 2026-06-22 |
 | [redstone-ml](https://github.com/BhavyeMathur/redstone-ml) | High-performance Machine Learning, Dynamic Auto-Differentiation and Tensor Algebra crate for Rust | AutoDiff, NdArrray | CPU, GPU | - | 2025-06-08 |
 | [RustyML](https://github.com/SomeB1oody/RustyML) | A high-performance machine learning library in pure Rust, offering statistical utilities, ML algorithms and neural networks. | - | CPU | ndarray, rayon | 2026-06-25 |
+| [Aprender](https://github.com/paiml/aprender) | Production-oriented machine learning framework written in Rust | Classical ML, Neural Networks, Training, Inference, Quantization, Model Serialization, Profiling | CPU, WGPU, CUDA | ndarray, trueno | 2026-08-22 |
+| [mni-ml](https://github.com/mni-ml/framework) | Machine learning framework with a high-level TypeScript API and performance-critical Rust backend | Tensors, AutoDiff, Neural Networks, Training, Optimizers | CPU, CUDA, WebGPU | Rust native backend | 2026-08-22 |
 | [tenferro-rs](https://github.com/tensor4all/tenferro-rs) | A Rust-native tensor & autodiff stack for scientific computing | opt-in autodiff, scientific computing | CPU, GPU | faer, cblas, lapack, cudarc, cubecl | 2026-07-28 |
 
 ## GPU Computing
 
 | Name | Description | Features | Backends | Main Deps | Last Commit Time |
 | -----| ----------- | ---------- | ---------- | ---------- | ---------- |
-| [cubecl](https://github.com/tracel-ai/cubecl) | Multi-platform high-performance compute language extension for Rust | Kernels in Rust, CubeIR | WGPU, CUDA, HIP |  cudarc, cubecl-hip-sys, ash, cubecl-spirv, wgpu | 2026-06-25 |
+| [cubecl](https://github.com/tracel-ai/cubecl) | Multi-platform high-performance compute language and compiler infrastructure for Rust | Kernels in Rust, CubeIR, Comptime Specialization, Autotuning, Kernel Fusion, Tensor Core Acceleration | CUDA, HIP, Metal, SPIR-V, WGSL, CPU | cudarc, cubecl-hip-sys, cubecl-spirv, wgpu | 2026-08-22 |
 | [krnl](https://github.com/charles-r-earp/krnl) | Safe, portable, high performance compute (GPGPU) kernels | Kernels in Rust | Vulkan | rsprv, vulkano, ash | 2025-10-20 |
 | [EnzymeAD](https://github.com/EnzymeAD/rust) | A rust fork to work towards Enzyme integration | AutoDiff on LLVM |  LLVM | Enzyme | 2024-11-25 |
 | [Rust-CUDA](https://github.com/Rust-GPU/Rust-CUDA)| Ecosystem of libraries and tools for writing and executing fast GPU code fully in Rust | Compiling Rust to PTX | CUDA | Binding | 2026-04-29 | 
@@ -67,6 +73,7 @@ This repository aims to provide a comprehensive overview of the Rust neural netw
 | [oxicuda](https://github.com/cool-japan/oxicuda) | OxiCUDA replaces the entire NVIDIA CUDA Toolkit software stack with type-safe, memory-safe Rust code | CUDA driver | CUDA | - | 2026-06-25 |
 | [cuda-oxide](https://github.com/NVlabs/cuda-oxide) | An experimental Rust-to-CUDA compiler that lets you write (SIMT) GPU kernels in safe(ish), idiomatic Rust | Rust to PTX | CUDA | - | 2026-06-27 |
 | [Rurix](https://github.com/qwasg/Rurix) | GPU programming language and toolchain written in Rust | CUDA first, Windows first | CUDA | - | 2026-06-25 |
+| [std::offload / gpu_offload](https://github.com/rust-lang/rust/issues/131513) | Experimental native GPU offloading support in Rust/rustc. Paper: [GPU Offload in Rust: Portable, Safe, and Fast](https://arxiv.org/abs/2608.13759) | Rust Host/Device Offload, Ownership-aware Data Movement, LLVM Offload, Portable GPU Kernels | NVIDIA, AMD, Intel GPUs | rustc, LLVM Offload | 2026-08-22 |
 | [tile-rs](https://github.com/yijunyu/tile-rs) | Safe Rust bindings for Huawei Ascend NPU (CANN framework) | Kernels in Rust tile DSL, lower to MLIR then 15 backends | 15 backends | - | 2026-06-29 | 
 
 
@@ -76,3 +83,13 @@ This repository aims to provide a comprehensive overview of the Rust neural netw
 - [ZLUDA](https://github.com/vosen/ZLUDA), CUDA on non-NVIDIA GPUs.
 - [adk-rust](https://github.com/zavora-ai/adk-rust), Production-ready AI agent development kit for Rust.
 - [rust-norion](https://github.com/yanghao1143/rust-norion), Rust Noiron/Norion self-evolving local LLM runtime engine for non-commercial research deployment.
+- [rust-norion](https://github.com/yanghao1143/rust-norion), Rust Noiron/Norion self-evolving local LLM runtime engine for non-commercial research deployment.
+
+## Research Papers
+
+| Paper | Related Project | Topic | Year |
+| ----- | --------------- | ----- | ---- |
+| [Fearless Concurrency on the GPU](https://arxiv.org/abs/2606.15991) | [cutile-rs](https://github.com/NVlabs/cutile-rs) | Safe tile-based GPU programming in Rust, ownership, data-race freedom, high-performance GPU kernels | 2026 |
+| [GPU Offload in Rust: Portable, Safe, and Fast](https://arxiv.org/abs/2608.13759) | rustc / std::offload | Native multi-vendor GPU offloading from Rust through LLVM, ownership-aware host/device data movement | 2026 |
+| [What Irregularity Costs: CUDA C++, Rust, and Triton on a Hash-Blocked GPU Workload](https://arxiv.org/abs/2608.08287) | [cuda-oxide](https://github.com/NVlabs/cuda-oxide) | CUDA C++ vs Rust vs Triton for irregular GPU workloads, atomics and data-dependent execution | 2026 |
+| [LithOS: An Operating System for Efficient Machine Learning on GPUs](https://arxiv.org/abs/2504.15465) | LithOS | Rust-based GPU operating system, ML scheduling, GPU resource management and kernel execution | 2025 |
